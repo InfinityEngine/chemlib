@@ -7,5 +7,8 @@ public interface IElement {
 
     double getRelativeMass();
     String getSymbol();
-    int getNuclearCharge();
+    int getNumber();
+    String getElectrinicStructure();
+    String getName();
+
 }

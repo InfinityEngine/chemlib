@@ -1,33 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Nitrogen implements IElement {
+public class Beryllium implements IElement {
     @Override
     public double getRelativeMass() {
-        return 14.007;
+        return 9.0121831;
     }
 
     @Override
     public String getSymbol() {
-        return "N";
+        return "Be";
     }
 
     @Override
     public int getNumber() {
-        return 7;
+        return 4;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s22p3";
+        return "[He]2s2";
     }
 
     @Override
     public String getName() {
-        return "Nitrogen";
+        return "Beryllium";
     }
 }

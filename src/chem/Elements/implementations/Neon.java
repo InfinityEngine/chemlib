@@ -1,6 +1,6 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.

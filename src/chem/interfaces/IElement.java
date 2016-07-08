@@ -7,8 +7,13 @@ public interface IElement {
 
     double getRelativeMass();
     String getSymbol();
+
+    /**
+     * Number of element in the periodic Table
+     * @return nuclear charge or number of electrons/protons
+     */
     int getNumber();
-    String getElectrinicStructure();
+    String getElectronicStructure();
     String getName();
 
 }

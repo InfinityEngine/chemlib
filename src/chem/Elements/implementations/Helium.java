@@ -1,35 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Hydrogen implements IElement {
-
-
+public class Helium implements IElement {
     @Override
     public double getRelativeMass() {
-        return 1.008;
+        return 4.0022602;
     }
 
     @Override
     public String getSymbol() {
-        return "H";
+        return "He";
     }
 
     @Override
     public int getNumber() {
-        return 1;
+        return 2;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "1s1";
+        return "1s2";
     }
 
     @Override
     public String getName() {
-        return "Hydrogen";
+        return "Helium";
     }
 }

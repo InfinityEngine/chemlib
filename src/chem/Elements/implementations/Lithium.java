@@ -1,33 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Oxygen implements IElement {
+public class Lithium implements IElement {
     @Override
     public double getRelativeMass() {
-        return 15.999;
+        return 6.94;
     }
 
     @Override
     public String getSymbol() {
-        return "O";
+        return "Li";
     }
 
     @Override
     public int getNumber() {
-        return 8;
+        return 3;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s22p4";
+        return "[He]2s1";
     }
 
     @Override
     public String getName() {
-        return "Oxygen";
+        return "Lithium";
     }
 }

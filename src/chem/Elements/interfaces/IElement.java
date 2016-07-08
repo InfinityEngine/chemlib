@@ -1,4 +1,4 @@
-package chem.interfaces;
+package chem.Elements.interfaces;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.

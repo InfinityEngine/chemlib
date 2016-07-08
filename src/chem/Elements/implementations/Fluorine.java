@@ -1,33 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Carbon implements IElement {
+public class Fluorine implements IElement {
     @Override
     public double getRelativeMass() {
-        return 12.011;
+        return 18.998403163;
     }
 
     @Override
     public String getSymbol() {
-        return "C";
+        return "F";
     }
 
     @Override
     public int getNumber() {
-        return 6;
+        return 9;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s22p2";
+        return "[He]2s22p5";
     }
 
     @Override
     public String getName() {
-        return "Carbon";
+        return "Fluorine";
     }
 }

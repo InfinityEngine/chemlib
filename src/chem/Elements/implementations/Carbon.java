@@ -1,33 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Boron implements IElement {
+public class Carbon implements IElement {
     @Override
     public double getRelativeMass() {
-        return 10.81;
+        return 12.011;
     }
 
     @Override
     public String getSymbol() {
-        return "B";
+        return "C";
     }
 
     @Override
     public int getNumber() {
-        return 5;
+        return 6;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s22p1";
+        return "[He]2s22p2";
     }
 
     @Override
     public String getName() {
-        return "Boron";
+        return "Carbon";
     }
 }

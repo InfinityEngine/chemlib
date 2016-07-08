@@ -1,33 +1,33 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Beryllium implements IElement {
+public class Oxygen implements IElement {
     @Override
     public double getRelativeMass() {
-        return 9.0121831;
+        return 15.999;
     }
 
     @Override
     public String getSymbol() {
-        return "Be";
+        return "O";
     }
 
     @Override
     public int getNumber() {
-        return 4;
+        return 8;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s2";
+        return "[He]2s22p4";
     }
 
     @Override
     public String getName() {
-        return "Beryllium";
+        return "Oxygen";
     }
 }

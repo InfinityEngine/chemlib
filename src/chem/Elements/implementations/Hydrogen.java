@@ -1,33 +1,35 @@
-package chem.implementations;
+package chem.Elements.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 
 /**
  * Created by TwilightSparkle on 09.07.2016.
  */
-public class Fluorine implements IElement {
+public class Hydrogen implements IElement {
+
+
     @Override
     public double getRelativeMass() {
-        return 18.998403163;
+        return 1.008;
     }
 
     @Override
     public String getSymbol() {
-        return "F";
+        return "H";
     }
 
     @Override
     public int getNumber() {
-        return 9;
+        return 1;
     }
 
     @Override
     public String getElectronicStructure() {
-        return "[He]2s22p5";
+        return "1s1";
     }
 
     @Override
     public String getName() {
-        return "Fluorine";
+        return "Hydrogen";
     }
 }

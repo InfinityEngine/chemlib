@@ -1,6 +1,6 @@
 package chem.Molecules.implementations;
 
-import chem.interfaces.IElement;
+import chem.Elements.interfaces.IElement;
 import chem.Molecules.interfaces.IMoleculePart;
 
 /**
